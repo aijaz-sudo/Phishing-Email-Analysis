@@ -1,0 +1,17 @@
+From: security-update@microsoft365-support.com
+To: employee@company.com
+Subject: Urgent: Your Microsoft 365 Password Expires Today
+
+Dear User,
+
+Your Microsoft 365 password will expire today.
+
+To avoid losing access to your mailbox, please verify your account immediately.
+
+Verification Link:
+http://microsoft365-login-security-alert.com
+
+Failure to verify within 24 hours will result in account suspension.
+
+Thank you,
+Microsoft Security Team

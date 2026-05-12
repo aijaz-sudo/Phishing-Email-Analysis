@@ -1,0 +1,17 @@
+Delivered-To: employee@company.com
+Received: from unknown-server.com (unknown-server.com. [185.199.110.153])
+        by mail.company.com with ESMTPS id abc123xyz
+        for <employee@company.com>;
+        Mon, 07 May 2026 10:15:22 +0530 (IST)
+Return-Path: <attacker@fake-domain.com>
+Received-SPF: fail (company.com: domain of attacker@fake-domain.com does not designate 185.199.110.153 as permitted sender)
+Authentication-Results: mail.company.com;
+       spf=fail smtp.mailfrom=fake-domain.com;
+       dkim=fail header.d=fake-domain.com;
+       dmarc=fail action=quarantine header.from=fake-domain.com
+DKIM-Signature: v=1; a=rsa-sha256; d=fake-domain.com;
+From: "Microsoft Security Team" <security-update@microsoft365-support.com>
+To: employee@company.com
+Subject: Urgent: Your Microsoft 365 Password Expires Today
+Date: Mon, 07 May 2026 10:10:10 +0530
+Message-ID: <1234567890@fake-domain.com>
